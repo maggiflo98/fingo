@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.aside{
+    background-color: black;
+    
+}
+h1{
+    color: white;
+    text-align: center;
+}
+
+.aside_images{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.aside_images img {
+    flex: 0 0 calc(33.33% - 16px); /* Adjust the width of each item */
+    max-width: calc(33.33% - 16px); /* Adjust the max-width of each item */
+    box-sizing: border-box;
+  }
+  
+  .aside_images img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover; /* Ensures the image covers the entire box without stretching */
+  }
+  .aside-container{
+    background-color: white;
+    
+  }
