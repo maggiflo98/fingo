@@ -1,33 +1,50 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.aside{
-    background-color: black;
+.investor{
+    background-color:#333532;
+    text-transform: uppercase;
+}
+.investor-container{
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    
     
 }
+   
+    
+
+
+.investor_images{
+    display: grid;
+    margin-top: 16px;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    overflow: hidden;
+    
+}
+
+.aside-container{
+    background-color:white;
+    border-radius: 10%;
+    box-sizing: border-box;
+    object-fit: cover;
+    padding: 1rem;
+    
+}
+
+
 h1{
     color: white;
     text-align: center;
 }
-
-.aside_images{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
+.investor_images:nth-last-child(-n+3).aside-container {
+    margin-bottom: 10px; /* Margin bottom for the last three cards only */
 }
-.aside_images img {
-    flex: 0 0 calc(33.33% - 16px); /* Adjust the width of each item */
-    max-width: calc(33.33% - 16px); /* Adjust the max-width of each item */
-    box-sizing: border-box;
-  }
-  
-  .aside_images img {
-    width: 50%;
-    height: 50%;
-    object-fit: cover; /* Ensures the image covers the entire box without stretching */
-  }
-  .aside-container{
-    background-color: white;
-    
-  }
+

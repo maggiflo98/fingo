@@ -8,39 +8,42 @@ const Aside=() =>{
     const imageSize ='2px'
 
     return(
-        <div className="aside">
+        
+        <div className="investor">
         <h1>we are trusted by</h1>
-        <div className="aside_images">
+        <div className="investor-container">
+        <div className="investor_images">
         <div className="aside-container">
-        <img src={IMAGES.hof}/>
-        </div>
-        <div className="aside-container">
-        <img src={IMAGES.pioneer}/>
+        <img src={IMAGES.pioneer}
+         className=""/>
         </div>
         <div className="aside-container">
         <img src={IMAGES.chui}/>
         </div>
         <div className="aside-container">
-        <img src={IMAGES.hustle}/>
+        <img src={IMAGES.hustle} className="logo"/>
         </div>
         <div className="aside-container">
-        <img src={IMAGES.Combinator}/>
+        <img src={IMAGES.combinator}/>
+        </div>
+            <div className="aside-container">
+        <img src={IMAGES.outbound} className="logo"/>
         </div>
         <div className="aside-container">
-        <img src={IMAGES.goodwater}/>
-        </div>
-        <div className="aside-container">
-        <img src={IMAGES.outbound}/>
-        </div>
-        <div className="aside-container">
-        <img src={IMAGES.continet}/>
+        <img src={IMAGES.continent}/>
         </div>
         <div className="aside-container">
         <img src={IMAGES.fintech}/>
          </div>
+         <div className="aside-container">
+        <img src={IMAGES.fintech}/>
+         </div>
+         <div className="aside-container">
+        <img src={IMAGES.fintech}/>
+         </div>
 
 
-        
+        </div>
         </div>
         
         </div>

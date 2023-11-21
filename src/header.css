@@ -1,0 +1,19 @@
+.screens{
+    background-color: black;
+    width: 100%;
+    display: flex;
+}
+.header-image{
+    height: 30%;
+    justify-items: flex-end;
+}
+.header-scanner{
+  color: white; 
+  transform: translate(50%,50%);
+}
+.screen-heading{
+  color: white;
+}
+.banking{
+  color: aqua;
+}
